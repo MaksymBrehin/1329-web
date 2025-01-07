@@ -1,0 +1,284 @@
+:root {
+    font-family: 'Graphik Trial', sans-serif;
+}
+.top-div{
+    height: 930px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/image-frends-macbook.jpeg');
+    background-size: 100% 930px;
+
+    background-repeat: repeat;
+    background-color: black;
+    /* display: flex;  */
+    justify-content: center;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffff;
+}
+header {
+    width: 1210px;
+    height: 156px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header .social-networks {
+    color: #ffff
+
+}
+
+.social-networks .socials, .header-list .list {
+    list-style-type: none;
+    text-decoration: none;
+}
+header ul {
+display: flex;
+align-items: center;
+
+}
+
+header li {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.main {
+    width: 1440px;
+    height: 885px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+
+}
+
+.main .text {
+    width: 826px;
+    height: 335px;
+    margin: 0 auto;
+}
+.main .text-product {
+    height: 168px;
+    width: 672px;
+
+}
+.main .text-calendars {
+    height: 80px;
+    width: 766px;
+
+}
+.main h1, .main h4 {
+    color: #ffff;
+}
+
+.mian h1 {
+    font-size: 74px;
+}
+
+.main h4 {
+    font-size: 28px;
+}
+
+.fasatest-way .content .button-free button {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #2091F9;
+    color: #ffff;
+    border-radius: 35px;
+    width: 236px;
+    height: 35px;
+    font-family: 'Graphik';
+    border: 0px;
+    margin-top: 50px;
+}
+
+.main .button-free button {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #2091F9;
+    color: #ffff;
+    border-radius: 35px;
+    width: 236px;
+    height: 35px;
+    font-family: 'Graphik';
+    border: 0px;
+    margin-top: 50px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #ffff; 
+}
+
+.featurs {
+    width: 100%;
+    height: 182px;
+    margin: 0 auto;
+    text-align: center;
+    /* display: flex; */
+
+}
+
+.featurs h2, .fasatest-way h2{
+    color: #252B42;
+}
+.featurs p, .open-design-fastest p, .fasatest-way p{
+    color: #374754;
+}
+
+.card-block, .fasatest-way {
+    width: 100%;
+}
+.open-design-fastest {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 869px;
+    margin: 0 auto;
+}
+
+.open-design-fastest div {
+    width: 255px;
+}
+
+.video {
+    width: 100%;
+    height: 762px;
+    position: relative;
+}
+.image-video {
+    width: 1177px;
+    height: 659px;
+    margin: 0 auto;
+    background-image: url('../img/student.jpeg');
+    border-radius: 82px;
+    background-size: 1177px 658;
+    /* box-shadow: 2px #374754; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.image-video .circle {
+  width: 47px;
+  height: 47px;  
+  border-radius: 50%;
+  background-color: #2091F9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-left: 24px solid #ffff;
+	border-bottom: 12px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.fasatest-way, .lighting-fast {
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+
+
+}
+
+.fasatest-way .content, .lighting-fast .content {
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 1243px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+
+.fasatest-way .content .text {
+    width: 532px!important;
+    display: grid;
+    grid-template-columns: auto;
+    /* border: 2px solid black; */
+    padding-left: 100px;
+
+}
+
+
+.fasatest-way .content .photo {
+    width: 646px!important;
+}
+
+ .content .text h2, .content .text h2 {
+    margin: 0!important;
+    font-size: 48px!important;
+}
+.content .text p {
+    margin: 0!important;
+    font-size: 28px!important;
+}
+.lighting-fast .content .text {
+    height: 725px!important;
+}
+.lighting-fast {
+}
+.lighting-fast h3 {
+    font-size: 20px;
+    margin: 0!important;
+}
+.lighting-fast .content .text h3 {
+    margin-top: 10px!important;
+
+}
+.lighting-fast .form-block {
+    margin-top: 50px!important;
+    height: 477px;
+}
+.lighting-fast form {
+    margin-top: 50px;
+}
+
+.lighting-fast .form-block button {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #2091F9;
+    color: #ffff;
+    border-radius: 35px;
+    width: 172px;
+    height: 58px;
+    font-family: 'Graphik';
+    border: 0px;
+    margin-top: 50px;
+}
+
+.lighting-fast form input {
+    border-radius: 39px;
+    border: 1px solid  #E8E8E8;
+    background-color: #F4F4F4;
+    height: 54px;
+    width: 273px;
+    padding-left: 30px;
+}
+
