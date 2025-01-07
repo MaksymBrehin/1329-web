@@ -85,7 +85,7 @@ header li {
     font-size: 28px;
 }
 
-.fasatest-way .content .button-free button {
+.fasatest-way .content .button-free button, .partners .button-free button {
     text-decoration: none;
     font-size: 20px;
     background-color: #2091F9;
@@ -116,7 +116,7 @@ a {
     color: #ffff; 
 }
 
-.featurs {
+.features {
     width: 100%;
     height: 182px;
     margin: 0 auto;
@@ -125,10 +125,10 @@ a {
 
 }
 
-.featurs h2, .fasatest-way h2{
+.features h2, .fasatest-way h2{
     color: #252B42;
 }
-.featurs p, .open-design-fastest p, .fasatest-way p{
+.features p, .open-design-fastest p, .fasatest-way p{
     color: #374754;
 }
 
@@ -194,7 +194,7 @@ a {
     transform: translate(-50%, -50%);
 }
 
-.fasatest-way, .lighting-fast {
+.fasatest-way, .lighting-fast, .partners {
     width: 100%;
     height: 800px;
     margin: 0 auto;
@@ -282,3 +282,53 @@ a {
     padding-left: 30px;
 }
 
+
+.partners .content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    width: 1243px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+.partners {
+    height: 932px!important;
+}
+
+.lighting-fast {
+    height: 725px!important;
+}
+
+.partners h2{
+    font-size: 48px;
+    font-weight: 400;
+    color: #252B42
+}
+
+.partners h4 {
+    font-size: 28px;
+    font-weight: 400;
+    color: #374754
+}
+
+.partners .logo {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1075px;
+    height: 330px;
+    text-align: center;
+}
+
+.partners .logo h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #374754
+}
+.partners .logo div {
+    border: 1px solid #D8D8D8;
+}
