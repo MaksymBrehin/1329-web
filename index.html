@@ -11,7 +11,10 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href="https://fonts.cdnfonts.com/css/graphik-trial" rel="stylesheet">
+    <link
+      href="https://fonts.cdnfonts.com/css/graphik-trial"
+      rel="stylesheet"
+    />
 
     <script
       src="https://unpkg.com/htmx.org@1.9.10"
@@ -21,354 +24,403 @@
   </head>
   <body>
     <div class="top-div">
-        <header>
-            <div class="ul-li-logo">
-                <div class="header-list">
-                    <ul class="list">
-                        <li>
-                            <a class="home" rel="noreferrer" href="#" aria-label="Home">
-                                Home
-                            </a>
-                        </li>
-                        <li>
-                            <a class="product" rel="noreferrer" href="#" aria-label="Product">
-                                Product
-                            </a>
-                        </li>
-                        <li>
-                            <a class="pricing" rel="noreferrer" href="#" aria-label="Pricing">
-                                Pricing
-                            </a>
-                        </li>
-                        <li>
-                            <a class="about" rel="noreferrer" href="#" aria-label="About">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a class="contact" rel="noreferrer" href="#" aria-label="Contact">
-                                Contact
-                            </a>
-                        </li>
-                        <li>
-                            <img src="img/icons/logo.png" alt="Figma"/>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="social-networks">
-                <ul class="socials">
-                    <li>
-                        <a class="facebook" target="_blank" rel="noreferrer" href="#" aria-label="Facebook">
-                            <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M30.7517 0.989624H1.29255C0.58409 0.989624 0.0117188 1.562 0.0117188 2.27046V31.7296C0.0117188 32.438 0.58409 33.0104 1.29255 33.0104H30.7517C31.4601 33.0104 32.0325 32.438 32.0325 31.7296V2.27046C32.0325 1.562 31.4601 0.989624 30.7517 0.989624ZM27.0533 10.3357H24.4956C22.4903 10.3357 22.1021 11.2883 22.1021 12.6892V15.7752H26.8892L26.2648 20.6064H22.1021V33.0104H17.1108V20.6104H12.9361V15.7752H17.1108V12.2129C17.1108 8.07822 19.6365 5.82476 23.3268 5.82476C25.096 5.82476 26.613 5.95685 27.0573 6.01689V10.3357H27.0533Z" fill="white"/>
-                                </svg>
-                                
-                        </a>
-                    </li>
-                    <li>
-                        <a class="twitter" target="_blank" rel="noreferrer" href="#" aria-label="Twitter">
-                            <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M37.6845 10.6854C36.4597 11.2137 35.1269 11.5939 33.754 11.742C35.1793 10.8952 36.2467 9.55742 36.7559 7.9796C35.4184 8.77527 33.9531 9.33321 32.4251 9.62867C31.7865 8.94593 31.0141 8.40203 30.156 8.03086C29.298 7.65969 28.3727 7.4692 27.4379 7.47127C23.6554 7.47127 20.6134 10.5373 20.6134 14.2997C20.6134 14.828 20.6775 15.3564 20.7815 15.8647C15.1179 15.5685 10.0666 12.8628 6.70842 8.72008C6.09652 9.76522 5.77587 10.9552 5.77981 12.1663C5.77981 14.5359 6.9846 16.6252 8.82179 17.854C7.7391 17.8114 6.68177 17.5138 5.73579 16.9854V17.0695C5.73579 20.3876 8.08131 23.1374 11.2073 23.7698C10.6204 23.9223 10.0166 24.0003 9.41017 24.002C8.96588 24.002 8.54561 23.958 8.12133 23.8979C8.98589 26.6037 11.5035 28.569 14.5015 28.633C12.156 30.4702 9.21805 31.5509 6.02798 31.5509C5.4556 31.5509 4.92726 31.5309 4.37891 31.4668C7.40487 33.4081 10.9952 34.5288 14.8617 34.5288C27.4139 34.5288 34.2823 24.1301 34.2823 15.1042C34.2823 14.808 34.2823 14.5118 34.2623 14.2156C35.5912 13.243 36.7559 12.0382 37.6845 10.6854Z" fill="white"/>
-                            </svg>   
-                        </a>
-                    </li>
-                    <li>
-                        <a class="linkedin" target="_blank" rel="noreferrer" href="#" aria-label="Linkedin">
-                            <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M35.736 4.98962H6.27692C5.56847 4.98962 4.99609 5.562 4.99609 6.27046V35.7296C4.99609 36.438 5.56847 37.0104 6.27692 37.0104H35.736C36.4445 37.0104 37.0169 36.438 37.0169 35.7296V6.27046C37.0169 5.562 36.4445 4.98962 35.736 4.98962ZM14.4943 32.2753H9.74317V16.9934H14.4943V32.2753ZM12.1207 14.9041C11.5761 14.9041 11.0437 14.7425 10.5908 14.44C10.1379 14.1374 9.78498 13.7073 9.57655 13.2041C9.36812 12.7009 9.31359 12.1472 9.41984 11.613C9.5261 11.0789 9.78837 10.5882 10.1735 10.203C10.5586 9.81792 11.0493 9.55565 11.5835 9.4494C12.1177 9.34314 12.6714 9.39768 13.1745 9.6061C13.6777 9.81453 14.1078 10.1675 14.4104 10.6203C14.713 11.0732 14.8745 11.6056 14.8745 12.1503C14.8705 13.6713 13.6377 14.9041 12.1207 14.9041ZM32.2818 32.2753H27.5347V24.8425C27.5347 23.0694 27.5027 20.7919 25.0651 20.7919C22.5955 20.7919 22.2153 22.7211 22.2153 24.7144V32.2753H17.4722V16.9934H22.0271V19.0828H22.0912C22.7236 17.882 24.2726 16.6132 26.5861 16.6132C31.3972 16.6132 32.2818 19.7792 32.2818 23.8939V32.2753Z" fill="white"/>
-                            </svg>      
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </header>
-        <div class="main">
-            <div class="text"> 
-                    <h1>
-                        The best products 
-                        <br>
-                        start with Figma
-                    </h1>
-                    <h4>
-                        Most calendars are designed for teams. Slate is designed 
-                        <br>
-                        for freelancers
-                    </h4>
-                    <div class="button-free">
-                        <button type="button">Try For Free</button>
-                    </div>
-            </div>
+      <header>
+        <div class="ul-li-logo">
+          <div class="header-list">
+            <ul class="list">
+              <li>
+                <a class="home" rel="noreferrer" href="#" aria-label="Home">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  class="product"
+                  rel="noreferrer"
+                  href="#"
+                  aria-label="Product"
+                >
+                  Product
+                </a>
+              </li>
+              <li>
+                <a
+                  class="pricing"
+                  rel="noreferrer"
+                  href="#"
+                  aria-label="Pricing"
+                >
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a class="about" rel="noreferrer" href="#" aria-label="About">
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  class="contact"
+                  rel="noreferrer"
+                  href="#"
+                  aria-label="Contact"
+                >
+                  Contact
+                </a>
+              </li>
+              <li>
+                <img src="img/icons/logo.png" alt="Figma" />
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="features">
-            <h2>Features</h2>
-            <h4>
+        <div class="social-networks">
+          <ul class="socials">
+            <li>
+              <a
+                class="facebook"
+                target="_blank"
+                rel="noreferrer"
+                href="#"
+                aria-label="Facebook"
+              >
+                <svg
+                  width="41"
+                  height="41"
+                  viewBox="0 0 41 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M30.7517 0.989624H1.29255C0.58409 0.989624 0.0117188 1.562 0.0117188 2.27046V31.7296C0.0117188 32.438 0.58409 33.0104 1.29255 33.0104H30.7517C31.4601 33.0104 32.0325 32.438 32.0325 31.7296V2.27046C32.0325 1.562 31.4601 0.989624 30.7517 0.989624ZM27.0533 10.3357H24.4956C22.4903 10.3357 22.1021 11.2883 22.1021 12.6892V15.7752H26.8892L26.2648 20.6064H22.1021V33.0104H17.1108V20.6104H12.9361V15.7752H17.1108V12.2129C17.1108 8.07822 19.6365 5.82476 23.3268 5.82476C25.096 5.82476 26.613 5.95685 27.0573 6.01689V10.3357H27.0533Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="twitter"
+                target="_blank"
+                rel="noreferrer"
+                href="#"
+                aria-label="Twitter"
+              >
+                <svg
+                  width="41"
+                  height="41"
+                  viewBox="0 0 41 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M37.6845 10.6854C36.4597 11.2137 35.1269 11.5939 33.754 11.742C35.1793 10.8952 36.2467 9.55742 36.7559 7.9796C35.4184 8.77527 33.9531 9.33321 32.4251 9.62867C31.7865 8.94593 31.0141 8.40203 30.156 8.03086C29.298 7.65969 28.3727 7.4692 27.4379 7.47127C23.6554 7.47127 20.6134 10.5373 20.6134 14.2997C20.6134 14.828 20.6775 15.3564 20.7815 15.8647C15.1179 15.5685 10.0666 12.8628 6.70842 8.72008C6.09652 9.76522 5.77587 10.9552 5.77981 12.1663C5.77981 14.5359 6.9846 16.6252 8.82179 17.854C7.7391 17.8114 6.68177 17.5138 5.73579 16.9854V17.0695C5.73579 20.3876 8.08131 23.1374 11.2073 23.7698C10.6204 23.9223 10.0166 24.0003 9.41017 24.002C8.96588 24.002 8.54561 23.958 8.12133 23.8979C8.98589 26.6037 11.5035 28.569 14.5015 28.633C12.156 30.4702 9.21805 31.5509 6.02798 31.5509C5.4556 31.5509 4.92726 31.5309 4.37891 31.4668C7.40487 33.4081 10.9952 34.5288 14.8617 34.5288C27.4139 34.5288 34.2823 24.1301 34.2823 15.1042C34.2823 14.808 34.2823 14.5118 34.2623 14.2156C35.5912 13.243 36.7559 12.0382 37.6845 10.6854Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="linkedin"
+                target="_blank"
+                rel="noreferrer"
+                href="#"
+                aria-label="Linkedin"
+              >
+                <svg
+                  width="41"
+                  height="41"
+                  viewBox="0 0 41 41"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M35.736 4.98962H6.27692C5.56847 4.98962 4.99609 5.562 4.99609 6.27046V35.7296C4.99609 36.438 5.56847 37.0104 6.27692 37.0104H35.736C36.4445 37.0104 37.0169 36.438 37.0169 35.7296V6.27046C37.0169 5.562 36.4445 4.98962 35.736 4.98962ZM14.4943 32.2753H9.74317V16.9934H14.4943V32.2753ZM12.1207 14.9041C11.5761 14.9041 11.0437 14.7425 10.5908 14.44C10.1379 14.1374 9.78498 13.7073 9.57655 13.2041C9.36812 12.7009 9.31359 12.1472 9.41984 11.613C9.5261 11.0789 9.78837 10.5882 10.1735 10.203C10.5586 9.81792 11.0493 9.55565 11.5835 9.4494C12.1177 9.34314 12.6714 9.39768 13.1745 9.6061C13.6777 9.81453 14.1078 10.1675 14.4104 10.6203C14.713 11.0732 14.8745 11.6056 14.8745 12.1503C14.8705 13.6713 13.6377 14.9041 12.1207 14.9041ZM32.2818 32.2753H27.5347V24.8425C27.5347 23.0694 27.5027 20.7919 25.0651 20.7919C22.5955 20.7919 22.2153 22.7211 22.2153 24.7144V32.2753H17.4722V16.9934H22.0271V19.0828H22.0912C22.7236 17.882 24.2726 16.6132 26.5861 16.6132C31.3972 16.6132 32.2818 19.7792 32.2818 23.8939V32.2753Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="main">
+        <div class="text">
+          <h1>
+            The best products
+            <br />
+            start with Figma
+          </h1>
+          <h4>
+            Most calendars are designed for teams. Slate is designed
+            <br />
+            for freelancers
+          </h4>
+          <div class="button-free">
+            <button type="button">Try For Free</button>
+          </div>
+        </div>
+      </div>
+      <div class="features">
+        <h2>Features</h2>
+        <h4>
+          Most calendars are designed for teams.
+          <br />
+          Slate is designed for freelancers
+        </h4>
+      </div>
+      <div class="card-block">
+        <div class="open-design-fastest">
+          <div class="">
+            <img src="img/mdi_drawing.png" alt="mdi_drawing" />
+            <h3>
+              OpenType features
+              <br />
+              Variable fonts
+            </h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </div>
+          <div class="">
+            <img src="img/brush.png" alt="brush" />
+            <h3>Design with real data</h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </div>
+          <div>
+            <img src="img/brush.png" alt="brush" />
+            <h3>
+              Fastest way to
+              <br />
+              take action
+            </h3>
+            <p>
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video">
+        <div class="image-video">
+          <div class="circle">
+            <div class="triangle-right"></div>
+          </div>
+        </div>
+      </div>
+      <div class="fasatest-way">
+        <div class="content">
+          <div class="text">
+            <div class="h2-text">
+              <h2>
+                Fastest way to
+                <br />
+                organize
+              </h2>
+            </div>
+            <div class="p-text">
+              <p>
                 Most calendars are designed for teams.
-                <br>
+                <br />
                 Slate is designed for freelancers
-            </h4>
-        </div>
-        <div class="card-block">
-            <div class="open-design-fastest">
-                <div class="">
-                    <img src="img/mdi_drawing.png" alt="mdi_drawing"/>
-                    <h3>
-                        OpenType features
-                        <br>
-                        Variable fonts
-                    </h3>
-                    <p>
-                        Slate helps you see how many more days you need to work to reach your financial goal.
-                    </p>
-                </div>
-                <div class="">
-                    <img src="img/brush.png" alt="brush"/>
-                    <h3>
-                        Design with real data
-                    </h3>
-                    <p>
-                        Slate helps you see how 
-                        many more days you need 
-                        to work to reach your 
-                        financial goal.                
-                    </p>
-                </div>
-                <div>
-                    <img src="img/brush.png" alt="brush"/>
-                    <h3>
-                        Fastest way to
-                        <br>
-                        take action
-                    </h3>
-                    <p>
-                        Slate helps you see how many more days you need to work to reach your financial goal.
-                    </p>
-                </div>
+              </p>
             </div>
-        </div>
-        <div class="video">
-            <div class="image-video">
-                <div class="circle">
-                    <div class="triangle-right"></div>
-                </div>
+            <div class="button-free">
+              <button type="button">Try For Free</button>
             </div>
+          </div>
+          <div class="photo">
+            <img src="img/SCREEN_MASK.png" alt="SCREEN_MASK" />
+          </div>
         </div>
-        <div class="fasatest-way">
-            <div class="content">
-                <div class="text">
-                    <div class="h2-text">
-                        <h2>
-                            Fastest way to
-                            <br>
-                            organize
-                        </h2>
-                    </div>
-                    <div class="p-text">
-                        <p>
-                            Most calendars are designed for teams.
-                            <br>
-                            Slate is designed for freelancers
-                        </p>
-                    </div>
-                    <div class="button-free">
-                        <button type="button">Try For Free</button>
-                    </div>
-                </div>
-                <div class="photo">
-                    <img src="img/SCREEN_MASK.png" alt="SCREEN_MASK"/>
-                </div>
-            </div>
-        </div>
-        <div class="lighting-fast">
-            <div class="content">
-                <div class="photo">
-                    <img src="img/undraw_newsletter_vovu.png" alt="News Latter"/>
-                </div>
-                <div class="text">
-                    <h3>At your fingertips</h3>
-                    <h2>
-                        Lightning fast 
-                        <br>
-                        prototyping
-                     </h2>  
-                     <div class="form-block">
-                        <h3>Subscribe to our Newsletter</h3>
-                        <span>Available exclusivery on Figmaland</span>
-    
-                        <form action="#">
-                            <label for="email" class="form__label">Your Email</label>
-                            <input type="email" id="email" class="form__input" placeholder="Your Email"  name="email" required >
-                            <button type="submit" class="form__button">Subscribe</button>
-                        </form>
-                    </div> 
-                </div>
-            </div>
-        </div>
-        <div class="partners">
-            <div class="content">
-                <div class="text">
-                    <h2>Partners</h2>
-                    <h4>
-                        Most calendars are designed for teams. 
-                        <br>
-                        Slate is designed for freelancers
-                    </h4>
-                </div>
-                <div class="logo">
-                    <div class="google">
-                        <h5>
-                            Client Name
-                        </h5>
-                        <img src="img/icons/logos_google.png" alt="Google"/>
-                    </div>
-                    <div class="amazon">
-                        <h5>
-                            Client Name
-                        </h5>
-                        <img src="img/icons/logos_amazon.png" alt="Amazon"/>
-                    </div>
-                    <div class="microsoft">
-                        <h5>
-                            Client Name
-                        </h5>
-                        <img src="img/icons/logos_microsoft.png" alt="Microsoft"/>
-                    </div>
-                    <div class="uber">
-                        <h5>
-                            Client Name
-                        </h5>
-                        <img src="img/icons/logos_uber.png" alt="Uber"/>
-                    </div>
-                    <div class="dropbox">
-                        <h5>
-                            Client Name
-                        </h5>
-                        <img src="img/icons/logos_dropbox.png" alt="Dropbox"/>
-                    </div>
-                    <div class="google">
-                        <h5>
-                            Client Name
-                        </h5>
-                        <img src="img/icons/logos_google.png" alt="Google"/>
-                    </div>
-                    <div class="uber">
-                        <h5>
-                            Client Name
-                        </h5>
-                        <img src="img/icons/logos_uber.png" alt="Uber"/>
-                    </div>
-                    <div class="amazon">
-                        <h5>
-                            Client Name
-                        </h5>
-                        <img src="img/icons/logos_amazon.png" alt="Amazon"/>
-                    </div>
-                </div>
-                <div class="button-free">
-                    <button type="button">Try For Free</button>
-                </div>
-            </div>
-        </div>
+      </div>
+      <div class="lighting-fast">
+        <div class="content">
+          <div class="photo">
+            <img src="img/undraw_newsletter_vovu.png" alt="News Latter" />
+          </div>
+          <div class="text">
+            <h3>At your fingertips</h3>
+            <h2>
+              Lightning fast
+              <br />
+              prototyping
+            </h2>
+            <div class="form-block">
+              <h3>Subscribe to our Newsletter</h3>
+              <span>Available exclusivery on Figmaland</span>
 
-        <div class="pricing">
-            <div class="content">
-                <div class="text-info">
-                    <h2>
-                        Pricing
-                    </h2>
-                    <h4>
-                        Most calendars are designed for teams.
-                        <br>
-                        Slate is designed for freelancers
-                    </h4>
-                </div>
-                <div class="card-pricing">
-                    <div class="free">
-                        <div class="text-type">
-                            <h3>FREE</h3>
-                            <h5>Organize across all 
-                                <br>
-                                apps by hand
-                            </h5>
-                        </div>
-                        <div class="cost">
-                            <div class=price>
-                                    <img src="img/zero.png" alt="Zero"/>
-                            </div>
-                            <div class="per-month">
-                                <img src="img/dollar.png" alt="Dollar"/>
-                                <h5>Per Month</h5>
-                            </div>
-                        </div>
-                        <div class="pricing-feature">
-                            <div><span>Pricing Feature</span></div>
-                            <div><span>Pricing Feature</span></div>
-                            <div><span>Pricing Feature</span></div>
-                            <div><span>Pricing Feature</span></div>
-                        </div>
-                        <div class="button-order">
-                            <button type="button">Order Now</button>
-                        </div>
-                    </div>
-                    <div class="standard">
-                        <div>
-                            <div class="text-type">
-                                <h3>STANDARD</h3>
-                                <h5>Organize across all 
-                                    <br>
-                                    apps by hand
-                                </h5>
-                            </div>
-                            <div class="cost">
-                                <div class=price>
-                                    <img src="img/10.png" alt="10"/>
-                                </div>
-                                <div class="per-month">
-                                    <img src="img/dollar_white.png" alt="Dollar"/>
-                                    <h5>Per Month</h5>
-                                </div>
-                            </div>
-                            <div class="pricing-feature">
-                                <div><span>Pricing Feature</span></div>
-                                <div><span>Pricing Feature</span></div>
-                                <div><span>Pricing Feature</span></div>
-                                <div><span>Pricing Feature</span></div>
-                            </div>
-                            <div class="button-order">
-                                <button type="button">Order Now</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="business">
-                        <div class="text-type">
-                            <h3>BUSINESS</h3>
-                            <h5>Organize across all 
-                                <br>
-                                apps by hand
-                            </h5>
-                        </div>
-                        <div class="cost">
-                            <div class=price>
-                                <img src="img/99.png" alt="99"/>
-                            </div>
-                            <div class="per-month">
-                                <img src="img/dollar.png" alt="Dollar"/>
-                                <h5>Per Month</h5>
-                            </div>
-                        </div>
-                        <div class="pricing-feature">
-                            <div><span>Pricing Feature</span></div>
-                            <div><span>Pricing Feature</span></div>
-                            <div><span>Pricing Feature</span></div>
-                            <div><span>Pricing Feature</span></div>
-                        </div>
-                        <div class="button-order">
-                            <button type="button">Order Now</button>
-                        </div>
-                    </div>
-                </div>
+              <form action="#">
+                <label for="email" class="form__label">Your Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  class="form__input"
+                  placeholder="Your Email"
+                  name="email"
+                  required
+                />
+                <button type="submit" class="form__button">Subscribe</button>
+              </form>
             </div>
+          </div>
         </div>
+      </div>
+      <div class="partners">
+        <div class="content">
+          <div class="text">
+            <h2>Partners</h2>
+            <h4>
+              Most calendars are designed for teams.
+              <br />
+              Slate is designed for freelancers
+            </h4>
+          </div>
+          <div class="logo">
+            <div class="google">
+              <h5>Client Name</h5>
+              <img src="img/icons/logos_google.png" alt="Google" />
+            </div>
+            <div class="amazon">
+              <h5>Client Name</h5>
+              <img src="img/icons/logos_amazon.png" alt="Amazon" />
+            </div>
+            <div class="microsoft">
+              <h5>Client Name</h5>
+              <img src="img/icons/logos_microsoft.png" alt="Microsoft" />
+            </div>
+            <div class="uber">
+              <h5>Client Name</h5>
+              <img src="img/icons/logos_uber.png" alt="Uber" />
+            </div>
+            <div class="dropbox">
+              <h5>Client Name</h5>
+              <img src="img/icons/logos_dropbox.png" alt="Dropbox" />
+            </div>
+            <div class="google">
+              <h5>Client Name</h5>
+              <img src="img/icons/logos_google.png" alt="Google" />
+            </div>
+            <div class="uber">
+              <h5>Client Name</h5>
+              <img src="img/icons/logos_uber.png" alt="Uber" />
+            </div>
+            <div class="amazon">
+              <h5>Client Name</h5>
+              <img src="img/icons/logos_amazon.png" alt="Amazon" />
+            </div>
+          </div>
+          <div class="button-free">
+            <button type="button">Try For Free</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing">
+        <div class="content">
+          <div class="text-info">
+            <h2>Pricing</h2>
+            <h4>
+              Most calendars are designed for teams.
+              <br />
+              Slate is designed for freelancers
+            </h4>
+          </div>
+          <div class="card-pricing">
+            <div class="free">
+              <div class="text-type">
+                <h3>FREE</h3>
+                <h5>
+                  Organize across all
+                  <br />
+                  apps by hand
+                </h5>
+              </div>
+              <div class="cost">
+                <div class="price">
+                  <img src="img/zero.png" alt="Zero" />
+                </div>
+                <div class="per-month">
+                  <img src="img/dollar.png" alt="Dollar" />
+                  <h5>Per Month</h5>
+                </div>
+              </div>
+              <div class="pricing-feature">
+                <div><span>Pricing Feature</span></div>
+                <div><span>Pricing Feature</span></div>
+                <div><span>Pricing Feature</span></div>
+                <div><span>Pricing Feature</span></div>
+              </div>
+              <div class="button-order">
+                <button type="button">Order Now</button>
+              </div>
+            </div>
+            <div class="standard">
+              <div>
+                <div class="text-type">
+                  <h3>STANDARD</h3>
+                  <h5>
+                    Organize across all
+                    <br />
+                    apps by hand
+                  </h5>
+                </div>
+                <div class="cost">
+                  <div class="price">
+                    <img src="img/10.png" alt="10" />
+                  </div>
+                  <div class="per-month">
+                    <img src="img/dollar_white.png" alt="Dollar" />
+                    <h5>Per Month</h5>
+                  </div>
+                </div>
+                <div class="pricing-feature">
+                  <div><span>Pricing Feature</span></div>
+                  <div><span>Pricing Feature</span></div>
+                  <div><span>Pricing Feature</span></div>
+                  <div><span>Pricing Feature</span></div>
+                </div>
+                <div class="button-order">
+                  <button type="button">Order Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="business">
+              <div class="text-type">
+                <h3>BUSINESS</h3>
+                <h5>
+                  Organize across all
+                  <br />
+                  apps by hand
+                </h5>
+              </div>
+              <div class="cost">
+                <div class="price">
+                  <img src="img/99.png" alt="99" />
+                </div>
+                <div class="per-month">
+                  <img src="img/dollar.png" alt="Dollar" />
+                  <h5>Per Month</h5>
+                </div>
+              </div>
+              <div class="pricing-feature">
+                <div><span>Pricing Feature</span></div>
+                <div><span>Pricing Feature</span></div>
+                <div><span>Pricing Feature</span></div>
+                <div><span>Pricing Feature</span></div>
+              </div>
+              <div class="button-order">
+                <button type="button">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
